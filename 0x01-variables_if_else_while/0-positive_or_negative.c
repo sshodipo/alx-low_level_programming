@@ -12,15 +12,15 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
         {
-                printf("the random number is %d \n", n);
+                printf("%d\n", n);
         }
         else if (n == 0)
         {
-                printf("The random number is %d \n", n);
+                printf("%d\n", n);
         }
 	else
 	{	
-		printf("The random number is %d \n", n);
+		printf("%d\n", n);
 	}
 
 	return (0);
